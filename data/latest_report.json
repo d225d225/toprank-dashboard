@@ -1,21 +1,191 @@
 {
-  "report_date": "—",
-  "account_id": "—",
-  "strategy_id": "—",
-  "generated_at": "—",
-  "nav": 0,
-  "cash": 0,
-  "cash_pct": 0,
-  "invested_value": 0,
-  "daily_pnl": 0,
-  "daily_pnl_pct": 0,
+  "report_date": "2026-05-26",
+  "account_id": "account_001",
+  "strategy_id": "toprank_ma_momentum_v2",
+  "generated_at": "2026-05-26T13:03:58.343030+00:00",
+  "nav": 80983.6,
+  "cash": 18420.0,
+  "cash_pct": 0.227453,
+  "invested_value": 62563.6,
+  "daily_pnl": -16366.4,
+  "daily_pnl_pct": -0.168119,
   "weekly_pnl_pct": null,
   "monthly_pnl_pct": null,
-  "max_drawdown_pct": 0,
-  "benchmark": {"qqq_1d_pct": null, "spy_1d_pct": null, "qqq_ytd_pct": null, "spy_ytd_pct": null},
-  "holdings": [],
-  "top10_ranked": [],
-  "trades_today": [],
-  "nav_history": [],
+  "max_drawdown_pct": 0.215275,
+  "benchmark": {
+    "qqq_1d_pct": 0.0082,
+    "spy_1d_pct": 0.0061,
+    "qqq_ytd_pct": 0.1523,
+    "spy_ytd_pct": 0.1187
+  },
+  "holdings": [
+    {
+      "symbol": "NVDA",
+      "shares": 36,
+      "current_price": 1087.5,
+      "market_value": 39150.0,
+      "entry_price": 950.0,
+      "cost_basis": 34200.0,
+      "unrealized_pl": 4950.0,
+      "unrealized_plpc": 0.144737,
+      "weight_pct": 0.483431,
+      "pe_ratio": 56.2,
+      "pnl_1d_pct": 0.024011,
+      "pnl_1w_pct": 0.089679,
+      "pnl_1m_pct": 0.242857
+    },
+    {
+      "symbol": "META",
+      "shares": 12,
+      "current_price": 530.2,
+      "market_value": 6362.4,
+      "entry_price": 480.0,
+      "cost_basis": 5760.0,
+      "unrealized_pl": 602.4,
+      "unrealized_plpc": 0.104583,
+      "weight_pct": 0.078564,
+      "pe_ratio": 28.4,
+      "pnl_1d_pct": 0.011832,
+      "pnl_1w_pct": 0.049901,
+      "pnl_1m_pct": 0.128085
+    },
+    {
+      "symbol": "MSFT",
+      "shares": 18,
+      "current_price": 415.8,
+      "market_value": 7484.4,
+      "entry_price": 390.0,
+      "cost_basis": 7020.0,
+      "unrealized_pl": 464.4,
+      "unrealized_plpc": 0.066154,
+      "weight_pct": 0.092419,
+      "pe_ratio": 35.1,
+      "pnl_1d_pct": 0.014146,
+      "pnl_1w_pct": 0.034328,
+      "pnl_1m_pct": 0.08
+    },
+    {
+      "symbol": "AMZN",
+      "shares": 22,
+      "current_price": 195.4,
+      "market_value": 4298.8,
+      "entry_price": 178.0,
+      "cost_basis": 3916.0,
+      "unrealized_pl": 382.8,
+      "unrealized_plpc": 0.097753,
+      "weight_pct": 0.053082,
+      "pe_ratio": 62.7,
+      "pnl_1d_pct": 0.023037,
+      "pnl_1w_pct": 0.056216,
+      "pnl_1m_pct": 0.136047
+    },
+    {
+      "symbol": "GOOGL",
+      "shares": 30,
+      "current_price": 175.6,
+      "market_value": 5268.0,
+      "entry_price": 160.0,
+      "cost_basis": 4800.0,
+      "unrealized_pl": 468.0,
+      "unrealized_plpc": 0.0975,
+      "weight_pct": 0.06505,
+      "pe_ratio": 24.8,
+      "pnl_1d_pct": 0.02093,
+      "pnl_1w_pct": 0.045238,
+      "pnl_1m_pct": 0.132903
+    }
+  ],
+  "top10_ranked": [
+    {
+      "rank": 1,
+      "symbol": "NVDA",
+      "score": 94.2
+    },
+    {
+      "rank": 2,
+      "symbol": "META",
+      "score": 91.2
+    },
+    {
+      "rank": 3,
+      "symbol": "MSFT",
+      "score": 88.2
+    },
+    {
+      "rank": 4,
+      "symbol": "AMZN",
+      "score": 85.2
+    },
+    {
+      "rank": 5,
+      "symbol": "GOOGL",
+      "score": 82.2
+    },
+    {
+      "rank": 6,
+      "symbol": "TSLA",
+      "score": 79.2
+    },
+    {
+      "rank": 7,
+      "symbol": "AAPL",
+      "score": 76.2
+    },
+    {
+      "rank": 8,
+      "symbol": "AMD",
+      "score": 73.2
+    },
+    {
+      "rank": 9,
+      "symbol": "NFLX",
+      "score": 70.2
+    },
+    {
+      "rank": 10,
+      "symbol": "CRM",
+      "score": 67.2
+    }
+  ],
+  "trades_today": [
+    {
+      "symbol": "NVDA",
+      "action": "BUY",
+      "shares": 6,
+      "price": 1087.5,
+      "value": 6525.0,
+      "timestamp": "2026-05-26T09:35:00"
+    },
+    {
+      "symbol": "TSLA",
+      "action": "SELL",
+      "shares": 10,
+      "price": 248.3,
+      "value": 2483.0,
+      "timestamp": "2026-05-26T10:12:00"
+    }
+  ],
+  "nav_history": [
+    {
+      "date": "2026-05-01",
+      "nav": 95000
+    },
+    {
+      "date": "2026-05-05",
+      "nav": 96200
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 98500
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 97350
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 80983.6
+    }
+  ],
   "watchlist_categories": {}
 }
