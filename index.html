@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopRank Trading Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>TopRank Trading Dashboard</h1>
+  <div class="meta">
+    <span id="kpi-date">—</span>
+    &nbsp;|&nbsp;
+    <a href="history.html" style="color:#6366f1;text-decoration:none;">History ›</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- KPI row -->
+  <div class="kpi-row" id="kpi-section">
+    <div class="kpi-box">
+      <div class="kpi-label">NAV</div>
+      <div class="kpi-value" id="kpi-nav">—</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-label">Daily P&amp;L</div>
+      <div class="kpi-value" id="kpi-daily-pnl">—</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-label">Cash</div>
+      <div class="kpi-value" id="kpi-cash">—</div>
+      <div class="kpi-sub" id="kpi-cash-pct"></div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-label">Invested</div>
+      <div class="kpi-value" id="kpi-invested">—</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-label">Max Drawdown</div>
+      <div class="kpi-value" id="kpi-drawdown">—</div>
+    </div>
+  </div>
+
+  <!-- NAV chart + Drawdown gauge -->
+  <div class="chart-row">
+    <div class="card">
+      <div class="card-title">NAV History</div>
+      <div class="chart-controls">
+        <button class="toggle-btn" id="toggle-qqq">QQQ</button>
+        <button class="toggle-btn" id="toggle-spy">SPY</button>
+      </div>
+      <div class="chart-container">
+        <canvas id="navChart"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Max Drawdown</div>
+      <div class="chart-container">
+        <canvas id="drawdownChart"></canvas>
+      </div>
+      <div style="text-align:center;margin-top:0.5rem;">
+        <div class="benchmark-row" style="justify-content:center;gap:1.5rem;">
+          <div class="benchmark-item">
+            <span class="label">QQQ 1D</span>
+            <span id="bm-qqq-1d" class="neutral">—</span>
+          </div>
+          <div class="benchmark-item">
+            <span class="label">SPY 1D</span>
+            <span id="bm-spy-1d" class="neutral">—</span>
+          </div>
+          <div class="benchmark-item">
+            <span class="label">QQQ YTD</span>
+            <span id="bm-qqq-ytd" class="neutral">—</span>
+          </div>
+          <div class="benchmark-item">
+            <span class="label">SPY YTD</span>
+            <span id="bm-spy-ytd" class="neutral">—</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Holdings table -->
+  <div class="card">
+    <div class="card-title">Holdings</div>
+    <table id="holdings-table">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Shares</th>
+          <th>Price</th>
+          <th>Value</th>
+          <th>Unrealized P&amp;L</th>
+          <th>1D</th>
+          <th>1W</th>
+          <th>1M</th>
+          <th>P/E</th>
+        </tr>
+      </thead>
+      <tbody id="holdings-body">
+        <tr><td colspan="9" class="loading">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Top 10 + Today's trades -->
+  <div class="two-col">
+    <div class="card">
+      <div class="card-title">Top 10 Ranked</div>
+      <table id="top10-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Symbol</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody id="top10-body">
+          <tr><td colspan="3" class="loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Today's Trades</div>
+      <table id="trades-table">
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Action</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody id="trades-body">
+          <tr><td colspan="5" class="loading">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Watchlist categories -->
+  <div class="card">
+    <div class="card-title">Watchlist Categories</div>
+    <div class="watchlist-grid" id="watchlist-container">
+      <p class="loading">Loading…</p>
+    </div>
+  </div>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

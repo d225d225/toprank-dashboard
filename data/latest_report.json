@@ -1,0 +1,21 @@
+{
+  "report_date": "—",
+  "account_id": "—",
+  "strategy_id": "—",
+  "generated_at": "—",
+  "nav": 0,
+  "cash": 0,
+  "cash_pct": 0,
+  "invested_value": 0,
+  "daily_pnl": 0,
+  "daily_pnl_pct": 0,
+  "weekly_pnl_pct": null,
+  "monthly_pnl_pct": null,
+  "max_drawdown_pct": 0,
+  "benchmark": {"qqq_1d_pct": null, "spy_1d_pct": null, "qqq_ytd_pct": null, "spy_ytd_pct": null},
+  "holdings": [],
+  "top10_ranked": [],
+  "trades_today": [],
+  "nav_history": [],
+  "watchlist_categories": {}
+}
