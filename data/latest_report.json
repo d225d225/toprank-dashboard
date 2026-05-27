@@ -1,8 +1,8 @@
 {
-  "report_date": "2026-05-26",
+  "report_date": "2026-05-27",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-05-26T17:45:09.513042+00:00",
+  "generated_at": "2026-05-27T17:42:19.435869+00:00",
   "nav": 1000000.0,
   "cash": 1000000.0,
   "cash_pct": 1.0,
@@ -23,7 +23,7 @@
   "trades_today": [],
   "nav_history": [
     {
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "nav": 1000000.0
     }
   ],
