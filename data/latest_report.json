@@ -2,7 +2,7 @@
   "report_date": "2026-05-28",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-05-28T15:22:46.507966+00:00",
+  "generated_at": "2026-05-28T15:25:45.482017+00:00",
   "nav": 1000000.0,
   "cash": 1000000.0,
   "cash_pct": 1.0,
@@ -13,13 +13,24 @@
   "monthly_pnl_pct": null,
   "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": 0.006621450420200833,
-    "spy_1d_pct": 0.0041973766578881425,
-    "qqq_ytd_pct": 0.19912231074601194,
-    "spy_ytd_pct": 0.10612016657093007
+    "qqq_1d_pct": 0.006525477669433532,
+    "spy_1d_pct": 0.0043106697983178776,
+    "qqq_ytd_pct": 0.19900798468369657,
+    "spy_ytd_pct": 0.10624495859914722
   },
   "holdings": [],
-  "top10_ranked": [],
+  "top10_ranked": [
+    {
+      "rank": 1,
+      "symbol": "NVDA",
+      "score": 58.0
+    },
+    {
+      "rank": 2,
+      "symbol": "MRVL",
+      "score": 87.0
+    }
+  ],
   "trades_today": [],
   "nav_history": [
     {
