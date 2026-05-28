@@ -2,37 +2,37 @@
   "report_date": "2026-05-28",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-05-28T15:35:26.854457+00:00",
-  "nav": 999968.38,
-  "cash": 895664.54,
-  "cash_pct": 0.895693,
-  "invested_value": 104303.84,
-  "daily_pnl": -104335.46,
-  "daily_pnl_pct": -0.094481,
+  "generated_at": "2026-05-28T17:50:56.222791+00:00",
+  "nav": 1004059.32,
+  "cash": 887938.76,
+  "cash_pct": 0.884349,
+  "invested_value": 116120.56,
+  "daily_pnl": -0.0,
+  "daily_pnl_pct": -0.0,
   "weekly_pnl_pct": null,
   "monthly_pnl_pct": null,
-  "max_drawdown_pct": 0.094481,
+  "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": 0.007567455581643818,
-    "spy_1d_pct": 0.004609802727607587,
-    "qqq_ytd_pct": 0.20024922483540836,
-    "spy_ytd_pct": 0.10657445255448296
+    "qqq_1d_pct": 0.009678521407152973,
+    "spy_1d_pct": 0.0059372762653636035,
+    "qqq_ytd_pct": 0.2027639995104014,
+    "spy_ytd_pct": 0.10803666036823771
   },
   "holdings": [
     {
       "symbol": "MRVL",
-      "shares": 527,
-      "current_price": 197.92,
-      "market_value": 104303.84,
-      "entry_price": 197.98,
-      "cost_basis": 104335.46,
-      "unrealized_pl": -31.62,
-      "unrealized_plpc": -0.000303,
-      "weight_pct": 0.104307,
-      "pe_ratio": 64.29,
-      "pnl_1d_pct": -0.049649,
-      "pnl_1w_pct": 0.122823,
-      "pnl_1m_pct": 0.250996
+      "shares": 566,
+      "current_price": 205.16,
+      "market_value": 116120.56,
+      "entry_price": 197.988057,
+      "cost_basis": 112061.24,
+      "unrealized_pl": 4059.32,
+      "unrealized_plpc": 0.036224,
+      "weight_pct": 0.115651,
+      "pe_ratio": 66.6,
+      "pnl_1d_pct": -0.014885,
+      "pnl_1w_pct": 0.163896,
+      "pnl_1m_pct": 0.296757
     }
   ],
   "top10_ranked": [
@@ -47,20 +47,11 @@
       "score": 87.0
     }
   ],
-  "trades_today": [
-    {
-      "symbol": "MRVL",
-      "action": "BUY",
-      "shares": 566,
-      "price": 198.7,
-      "value": 112464.2,
-      "timestamp": "2026-05-28T09:35:00"
-    }
-  ],
+  "trades_today": [],
   "nav_history": [
     {
       "date": "2026-05-28",
-      "nav": 999968.38
+      "nav": 1004059.32
     }
   ],
   "watchlist_categories": {}
