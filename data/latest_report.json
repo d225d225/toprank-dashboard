@@ -2,7 +2,7 @@
   "report_date": "2026-05-28",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-05-28T15:28:43.149598+00:00",
+  "generated_at": "2026-05-28T15:31:13.266672+00:00",
   "nav": 1000000.0,
   "cash": 1000000.0,
   "cash_pct": 1.0,
@@ -13,10 +13,10 @@
   "monthly_pnl_pct": null,
   "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": 0.007457676811803628,
-    "spy_1d_pct": 0.004743753770168802,
-    "qqq_ytd_pct": 0.20011845256534924,
-    "spy_ytd_pct": 0.10672199919516756
+    "qqq_1d_pct": 0.00723845396349471,
+    "spy_1d_pct": 0.004703739251079477,
+    "qqq_ytd_pct": 0.19985730672117638,
+    "spy_ytd_pct": 0.10667792333164794
   },
   "holdings": [],
   "top10_ranked": [
