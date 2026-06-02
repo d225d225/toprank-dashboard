@@ -1,87 +1,94 @@
 {
-  "report_date": "2026-06-01",
+  "report_date": "2026-06-02",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-06-01T19:31:02.172674+00:00",
-  "nav": 1013763.39,
+  "generated_at": "2026-06-02T18:23:21.622703+00:00",
+  "nav": 1048855.39,
   "cash": 887938.76,
-  "cash_pct": 0.875884,
-  "invested_value": 125824.63,
-  "daily_pnl": 0.0,
-  "daily_pnl_pct": 0.0,
+  "cash_pct": 0.846579,
+  "invested_value": 160916.63,
+  "daily_pnl": -0.0,
+  "daily_pnl_pct": -0.0,
   "weekly_pnl_pct": null,
   "monthly_pnl_pct": null,
   "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": 0.007368182009447218,
-    "spy_1d_pct": 0.004150823193618159,
-    "qqq_ytd_pct": 0.21458732776833533,
-    "spy_ytd_pct": 0.1149414310608702
+    "qqq_1d_pct": 0.0023829300754076815,
+    "spy_1d_pct": 0.0006901396766425659,
+    "qqq_ytd_pct": 0.21582826889808812,
+    "spy_ytd_pct": 0.11412459422434185
   },
   "holdings": [
     {
       "symbol": "MRVL",
       "shares": 566,
-      "current_price": 222.305,
-      "market_value": 125824.63,
+      "current_price": 284.305,
+      "market_value": 160916.63,
       "entry_price": 197.988057,
       "cost_basis": 112061.24,
-      "unrealized_pl": 13763.39,
-      "unrealized_plpc": 0.12282,
-      "weight_pct": 0.124116,
-      "pe_ratio": 76.46,
-      "pnl_1d_pct": 0.085315,
-      "pnl_1w_pct": 0.165793,
-      "pnl_1m_pct": 0.419844
+      "unrealized_pl": 48855.39,
+      "unrealized_plpc": 0.43597,
+      "weight_pct": 0.153421,
+      "pe_ratio": 97.38,
+      "pnl_1d_pct": 0.386854,
+      "pnl_1w_pct": 0.448098,
+      "pnl_1m_pct": 0.721496
     }
   ],
   "top10_ranked": [
     {
       "rank": 1,
-      "symbol": "NVDA",
-      "score": 44.12
+      "symbol": "AAPL",
+      "score": 56.5
     },
     {
       "rank": 2,
-      "symbol": "GOOGL",
-      "score": 47.5
+      "symbol": "NVDA",
+      "score": 54.17
     },
     {
       "rank": 3,
-      "symbol": "AMZN",
-      "score": 34.88
+      "symbol": "GOOGL",
+      "score": 49.5
     },
     {
       "rank": 4,
-      "symbol": "AVGO",
-      "score": 54.12
+      "symbol": "AMZN",
+      "score": 33.83
     },
     {
       "rank": 5,
-      "symbol": "TXN",
-      "score": 71.38
+      "symbol": "AVGO",
+      "score": 75.33
     },
     {
       "rank": 6,
-      "symbol": "LRCX",
-      "score": 62.12
-    },
-    {
-      "rank": 7,
-      "symbol": "MRVL",
-      "score": 77.38
-    },
-    {
-      "rank": 8,
-      "symbol": "LLY",
-      "score": 53.5
+      "symbol": "TXN",
+      "score": 75.67
     }
   ],
-  "trades_today": [],
+  "trades_today": [
+    {
+      "symbol": "MRVL",
+      "action": "SELL",
+      "shares": 566,
+      "price": 284.545,
+      "value": 161052.47,
+      "timestamp": "2026-06-02T10:00:00"
+    },
+    {
+      "symbol": "AVGO",
+      "action": "BUY",
+      "shares": 256,
+      "price": 459.97,
+      "value": 117752.32,
+      "timestamp": "2026-06-02T09:35:00"
+    }
+  ],
   "nav_history": [
     {
-      "date": "2026-06-01",
-      "nav": 1013763.39
+      "date": "2026-06-02",
+      "nav": 1048855.39
     }
   ],
   "watchlist_categories": {}
