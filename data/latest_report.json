@@ -1,66 +1,36 @@
 {
-  "report_date": "2026-06-03",
+  "report_date": "2026-06-04",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-06-03T18:35:58.173966+00:00",
-  "nav": 1052589.38,
-  "cash": 927717.7,
-  "cash_pct": 0.881367,
-  "invested_value": 124871.68,
+  "generated_at": "2026-06-04T17:31:33.380784+00:00",
+  "nav": 1052632.84,
+  "cash": 1052632.84,
+  "cash_pct": 1.0,
+  "invested_value": 0.0,
   "daily_pnl": 0.0,
   "daily_pnl_pct": 0.0,
   "weekly_pnl_pct": null,
   "monthly_pnl_pct": null,
   "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": -0.0020057938247464127,
-    "spy_1d_pct": -0.005226683123345945,
-    "qqq_ytd_pct": 0.2160788492997105,
-    "spy_ytd_pct": 0.1090409987949014
+    "qqq_1d_pct": -0.003480236464168327,
+    "spy_1d_pct": 0.003990785167317447,
+    "qqq_ytd_pct": 0.21110890499354712,
+    "spy_ytd_pct": 0.11146284207618101
   },
-  "holdings": [
-    {
-      "symbol": "AVGO",
-      "shares": 256,
-      "current_price": 487.78,
-      "market_value": 124871.68,
-      "entry_price": 473.05,
-      "cost_basis": 121100.8,
-      "unrealized_pl": 3770.88,
-      "unrealized_plpc": 0.031138,
-      "weight_pct": 0.118633,
-      "pe_ratio": 94.75,
-      "pnl_1d_pct": 0.06046,
-      "pnl_1w_pct": 0.155849,
-      "pnl_1m_pct": 0.157852
-    }
-  ],
+  "holdings": [],
   "top10_ranked": [
     {
       "rank": 1,
-      "symbol": "NVDA",
-      "score": 62.0
-    },
-    {
-      "rank": 2,
-      "symbol": "TXN",
-      "score": 83.0
+      "symbol": "AAPL",
+      "score": 95.0
     }
   ],
-  "trades_today": [
-    {
-      "symbol": "AVGO",
-      "action": "SELL",
-      "shares": 256,
-      "price": 488.25,
-      "value": 124992.0,
-      "timestamp": "2026-06-03T10:00:00"
-    }
-  ],
+  "trades_today": [],
   "nav_history": [
     {
-      "date": "2026-06-03",
-      "nav": 1052589.38
+      "date": "2026-06-04",
+      "nav": 1052632.84
     }
   ],
   "watchlist_categories": {}
