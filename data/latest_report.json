@@ -1,8 +1,8 @@
 {
-  "report_date": "2026-06-04",
+  "report_date": "2026-06-05",
   "account_id": "account_001",
   "strategy_id": "toprank_ma_momentum_v2",
-  "generated_at": "2026-06-04T17:31:33.380784+00:00",
+  "generated_at": "2026-06-05T17:01:22.964770+00:00",
   "nav": 1052632.84,
   "cash": 1052632.84,
   "cash_pct": 1.0,
@@ -13,23 +13,42 @@
   "monthly_pnl_pct": null,
   "max_drawdown_pct": 0.0,
   "benchmark": {
-    "qqq_1d_pct": -0.003480236464168327,
-    "spy_1d_pct": 0.003990785167317447,
-    "qqq_ytd_pct": 0.21110890499354712,
-    "spy_ytd_pct": 0.11146284207618101
+    "qqq_1d_pct": -0.032797259701830055,
+    "spy_1d_pct": -0.01714464732525685,
+    "qqq_ytd_pct": 0.1697925425518215,
+    "spy_ytd_pct": 0.09217642672316022
   },
   "holdings": [],
   "top10_ranked": [
     {
       "rank": 1,
-      "symbol": "AAPL",
-      "score": 95.0
+      "symbol": "GOOGL",
+      "score": 56.67
+    },
+    {
+      "rank": 2,
+      "symbol": "AVGO",
+      "score": 71.67
+    },
+    {
+      "rank": 3,
+      "symbol": "LLY",
+      "score": 66.67
     }
   ],
-  "trades_today": [],
+  "trades_today": [
+    {
+      "symbol": "AVGO",
+      "action": "BUY",
+      "shares": 282,
+      "price": 418.91,
+      "value": 118132.62000000001,
+      "timestamp": "2026-06-05T09:35:00"
+    }
+  ],
   "nav_history": [
     {
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "nav": 1052632.84
     }
   ],
